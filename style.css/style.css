@@ -1,0 +1,103 @@
+/* this side bar is for the quiz*/
+/* this is to make the header uniform throughout */
+
+   .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 160px;
+    height: 100vh;
+    background: #e0f7fa;
+    padding: 32px 16px;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+}
+
+.quiz-btn {
+    padding: 12px 24px;
+    background: #51f154;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-family: 'Georgia', serif;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.quiz-btn:hover {
+    background: #43c743;
+}
+
+body {
+    margin-left: 180px; /* add space for sidebar */
+}
+
+
+header {
+    border: 2px solid #333;
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    background: #51f154;
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+
+/* visited links */
+
+nav ul li a:active {
+    color: #ff0000;
+}
+
+nav ul li a:visited {
+    color: #5f6059;
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+body {
+    background:#fff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin:0;
+}
+.middle-section {
+    display:flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 48px 0;
+
+}
+.middle-section img {
+    width: 180px;
+   height: 180px;
+
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    background: #fafafa;
+}  
+
+.centered-box {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 24px 32px;
+    background: #fffbe7;
+    border: 2px solid #e0b800;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    text-align: center;
+    font-size: 1.15em;
+}

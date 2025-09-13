@@ -1,0 +1,66 @@
+[index.html](http://_vscodecontentref_/1)
+             <!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css/style.css">
+        <title>my home page</title>
+</head>
+<body>
+    <header>
+    <div id="nav">
+        <h1>Welcome to Bothot47.com</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="howto.html">How this site works</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<aside class="sidebar">
+<button class="quiz-btn" onclick="alert('Quiz coming soon!')">Take Quiz</button></aside>    
+    <main>
+    
+    <h2>  Web page design is a destination of individual needs applications, and functions that fit unique requirements.</h2>
+       <h1>  It could start with  a state of mind,</h1>
+      <h1>add a touch of tranquility, walk through a maze then step into another dimension!</h1>
+    <h2>     So lets find out what you need!</h2> 
+<div class="middle-section">
+    <figure>
+    <img src="Images/cat1.jpg" alt="Cat state of Mind">
+    <figcaption>Photo by Unsplash</figcaption>
+    </figure>
+
+    <figure>
+    <img src="Images/solitude2.jpg" alt="Solitude">
+    <figcaption>Photo by Unsplash</figcaption>
+    </figure>
+
+    <figure>
+    <img src="Images/maze3.jpg" alt="The Maze">
+    <figcaption>Photo by Unsplash</figcaption>
+    </figure>
+
+    <figure>
+    <img src="Images/Thumpkin.jpg" alt="Thumpkin">
+
+    <figcaption>Photo by Bohart</figcaption>
+</figure>
+</div>
+
+
+</main>
+<footer>
+    <p>Contact me at: Bothot47myemail@example.com</p>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+    <meta charset="UTF-8">
+
+    <meta name ="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>HOME</title>
+    </head>
+<body>
+    <header>
+    <div id="nav">
+        <h1>Welcome to Bothot47.com</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="howto.html">How this site works</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main>
+        <h1>Quiz</h1>
+        <p>Please answer the following questions to help us understand your needs better.</p>
+        
+        <form id="quizForm">
+            <label for="q1">1. What is your Businessry  idea for this website?</label><br>
+            <input type="text" id="q1" name="q1" required><br><br>
+
+            <label for="q2">2. What features are most important to you?</label><br>
+            <input type="text" id="q2" name="q2" required><br><br>
+
+            <label for="q3">3. How often do you plan to update the content?</label><br>
+            <input type="text" id="q3" name="q3" required><br><br>
+
+            <label for="q4">4. Do you have any specific design preferences such as color or pictures?</label><br>
+            <input type="text" id="q4" name="q4" required><br><br>
+
+            <label for="q5">5. Any additional comments or requirements?</label><br>
+            <input type="text" id="q5" name="q5"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bothot47.com</p>
+    </footer>
+
+    <hr>
+<h2>Or leave us a message:</h2>
+<form id="messageForm">
+    <label for="messageBox">Your Message:</label><br>
+    <textarea id="messageBox" name="messageBox" rows="4" cols="40" required></textarea><br><br>
+    <input type="submit" value="Send Message">
+</form>
+
+    <script>
+        document.getElementById('quizForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Thank you for completing the quiz! We will get back to you soon.');
+            this.reset();
+        });
+       document.getElementById('messageForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for your message! We will get back to you soon.');
+    
+    this.reset(); 
+       });   
+    </script>

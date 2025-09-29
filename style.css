@@ -1,5 +1,23 @@
 * this side bar is for the quiz*/
+
 /* this is to make the header uniform throughout */
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
 
    .sidebar {
     position: fixed;

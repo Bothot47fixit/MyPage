@@ -109,6 +109,7 @@ nav ul {
     padding: 0;
     margin: 0;
     justify-content: center;
+    gap:24px;
 }
 
 
@@ -154,4 +155,125 @@ body {
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     text-align: center;
     font-size: 1.15em;
+}
+.about-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.about-text {
+    flex: 2;
+    min-width: 0;
+}
+/* this is for the eagle*/
+.about-image-box  {
+    flex: 1;
+    background: #eece64c4;
+    border: 2px solid #e0b800;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+}
+.about-image-box img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+/*history picture*/
+.history-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: nowrap;
+}
+/* how to images*/
+.howto-images {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.howto-images figure {
+    background: #f9f9f9;
+    border: 2px solid #e0b800;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 220px;
+}
+.howto-images img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+/* contact information*/
+Here are some quick ways to make your contact page more exciting and inviting:
+
+---
+
+### 1. **Add a Friendly Heading and Subheading**
+
+```html
+<h2 class="contact-heading">We'd Love to Hear From You!</h2>
+<p class="contact-subheading">Reach out with questions, ideas, or just to say hello!</p>
+```
+
+---
+
+### 2. **Add an Icon or Image**
+
+```html
+<img src="Images/contact-icon.png" alt="Contact Icon" class="contact-icon">
+```
+*(Add a small, friendly image like an envelope or chat bubble to your Images folder.)*
+
+---
+
+### 3. **Style the Form**
+
+Add this to your CSS for a modern look:
+
+````css
+.contact-heading {
+    color: #0077cc;
+    font-size: 2em;
+    margin-bottom: 0.2em;
+    text-align: center;
+}
+
+.contact-subheading {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.contact-icon {
+    display: block;
+    margin: 0 auto 1em auto;
+    width: 64px;
+    height: 64px;
+}
+
+form {
+    background: #e66da9;
+    border: 2px solid #e0b800;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
 }

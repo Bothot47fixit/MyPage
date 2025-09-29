@@ -220,33 +220,6 @@ body {
     margin-bottom: 8px;
 }
 /* contact information*/
-Here are some quick ways to make your contact page more exciting and inviting:
-
----
-
-### 1. **Add a Friendly Heading and Subheading**
-
-```html
-<h2 class="contact-heading">We'd Love to Hear From You!</h2>
-<p class="contact-subheading">Reach out with questions, ideas, or just to say hello!</p>
-```
-
----
-
-### 2. **Add an Icon or Image**
-
-```html
-<img src="Images/contact-icon.png" alt="Contact Icon" class="contact-icon">
-```
-*(Add a small, friendly image like an envelope or chat bubble to your Images folder.)*
-
----
-
-### 3. **Style the Form**
-
-Add this to your CSS for a modern look:
-
-````css
 .contact-heading {
     color: #0077cc;
     font-size: 2em;

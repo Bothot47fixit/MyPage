@@ -315,4 +315,22 @@ box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 .back-btn:hover {
     background: #ffd700;
 }
-
+ .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 32px;
+    margin: 40px 0;
+}
+.image-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.image-grid figure {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 16px;
+    text-align: center;
+}
